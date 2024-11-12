@@ -569,6 +569,14 @@ iframe {
     color: rgba(255, 255, 255, 0.85);
 }
 
+
+.enlaces header a:hover,
+.enlaces header a:focus,
+.enlaces header li:hover a,
+.enlaces header li:focus a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .enlaces header li {
     border-left: 2px solid rgba(255, 255, 255, 0.85);
 }
@@ -592,6 +600,11 @@ iframe {
 
 .enlaces main section:last-child li {
     padding: 2rem 2rem 0;
+}
+
+.enlaces main a:hover,
+.enlaces main a:focus {
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {

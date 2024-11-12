@@ -26,8 +26,8 @@ import Swal from 'sweetalert2';
 //Código de sweetalert2 
 
 document.addEventListener("DOMContentLoaded", () => {
-    const suscribirse = document.getElementById("suscribirse");
-    suscribirse.addEventListener("click", async () => {
+    const subscribe = document.getElementById("suscribirse");
+    subscribe.addEventListener("click", async () => {
         const { value: email } = await Swal.fire({
             title: "Suscríbete a la Newsletter",
             input: "email",
