@@ -21,23 +21,61 @@
 </head>
 
 <body class="detalle">
-    <header class="habla">
-        <div>
-            <h1>
-                El habla de Cádiz
-            </h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="categorias.html">Las joyas de Cádiz</a></li>
-                    <li><a href="enlaces.html">Enlaces</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <h1>
+            <a href="index.html">El habla de Cádiz</a>
+        </h1>
+        <img src="assets/icons/logo.svg"
+            alt="Logo del sitio Cádiz tacita de plata. Es circular y representa la silueta de una torre frente a la luna, que a su vez la cubre el mar"
+            height="40">
     </header>
     <main>
         <article>
             <section>
+                <div class="portada">
+                    <picture>
+                        <source srcset="
+                            assets/images/habla-4-432w.webp 432w, 
+                            assets/images/habla-4-576w.webp 576w, 
+                            assets/images/habla-4-768w.webp 768w, 
+                            assets/images/habla-4-960w.webp 960w, 
+                            assets/images/habla-4-1200w.webp 1200w, 
+                            assets/images/habla-4-1500w.webp 1500w,
+                            assets/images/habla-4-1875w.webp 1975w,
+                            assets/images/habla-4-432w-2x.webp 864w, 
+                            assets/images/habla-4-576w-2x.webp 1152w, 
+                            assets/images/habla-4-768w-2x.webp 1536w, 
+                            assets/images/habla-4-960w-2x.webp 1920w,
+                            assets/images/habla-4-1200w-2x.webp 2400w,
+                            assets/images/habla-4-1500w-2x.webp 3000w,
+                            assets/images/habla-4-1875w-2x.webp 3750w
+                            " sizes="
+                            (max-width: 1200px) 100vw, 
+                            75vw" type="image/webp">
+
+                        <source srcset="
+                        assets/images/habla-4-432w.jpg 432w, 
+                        assets/images/habla-4-576w.jpg 576w, 
+                        assets/images/habla-4-768w.jpg 768w, 
+                        assets/images/habla-4-960w.jpg 960w, 
+                        assets/images/habla-4-1200w.jpg 1200w, 
+                        assets/images/habla-4-1500w.jpg 1500w,
+                        assets/images/habla-4-1875w.jpg 1975w,
+                        assets/images/habla-4-432w-2x.jpg 864w, 
+                        assets/images/habla-4-576w-2x.jpg 1152w, 
+                        assets/images/habla-4-768w-2x.jpg 1536w, 
+                        assets/images/habla-4-960w-2x.jpg 1920w,
+                        assets/images/habla-4-1200w-2x.jpg 2400w,
+                        assets/images/habla-4-1500w-2x.jpg 3000w,
+                        assets/images/habla-4-1875w-2x.jpg 3750w
+                        " sizes="
+                        (max-width: 1200px) 100vw, 
+                        75vw" type="image/jpg">
+
+                        <img src="assets/images/habla-4-1500w.jpg"
+                            alt="Vista de una playa desde arriba, la unión entre agua y arena y las personas en ambos lados.">
+                    </picture>
+                </div>
                 <h2 class="aparecer"> Contar hablando</h2>
                 <p class="aparecer">
                     El habla no solo es un medio de comunicación, sino también un reflejo de la identidad del hablante,
@@ -54,6 +92,36 @@
                     los musulmanes, han dejado huella en su lengua. Estas influencias han dado lugar a una forma de
                     hablar única, que refleja la diversidad de la ciudad.
                 </p>
+                <div class="aparecer">
+                    <picture>
+                        <source srcset="
+                        assets/images/habla-3-347w.webp 347w, 
+                        assets/images/habla-3-462w.webp 462w, 
+                        assets/images/habla-3-615w.webp 615w, 
+                        assets/images/habla-3-768w.webp 768w,  
+                        assets/images/habla-3-347w-2x.webp 694w, 
+                        assets/images/habla-3-462w-2x.webp 924w, 
+                        assets/images/habla-3-615w-2x.webp 1230w, 
+                        assets/images/habla-3-768w-2x.webp 1536w" sizes="
+                            (max-width: 1200px) 80vw, 
+                            50vw" type="image/webp">
+
+                        <source srcset="
+                        assets/images/habla-3-347w.jpg 347w, 
+                        assets/images/habla-3-462w.jpg 462w, 
+                        assets/images/habla-3-615w.jpg 615w, 
+                        assets/images/habla-3-768w.jpg 768w, 
+                        assets/images/habla-3-347w-2x.jpg 694w, 
+                        assets/images/habla-3-462w-2x.jpg 924w, 
+                        assets/images/habla-3-615w-2x.jpg 1230w, 
+                        assets/images/habla-3-768w-2x.jpg 1536w
+                        " sizes="
+                        (max-width: 1200px) 80vw, 
+                        50vw" type="image/jpg">
+
+                        <img src="assets/images/habla-3-768w.jpg" alt="Calle del centro de Cádiz y gente paseando.">
+                    </picture>
+                </div>
                 <p class="aparecer">
                     Uno de los rasgos más distintivos del acento gaditano es el seseo: la pronunciación de las letras
                     "s" y "z" de la misma forma. Además, otros rasgos que lo hacen único son: la aspiración de la "s" en
@@ -66,9 +134,36 @@
                     contagian por todas partes. Gran parte de su vocabulario está ligado con la vida del mar y
                     la pesca, reflejo de su entorno y oficios.
                 </p>
-                <div>
-                    <img class="aparecer" src="assets/images/habla-1.jpg"
-                        alt="Una de las torres de la catedral de Cádiz.">
+                <div class="aparecer">
+                    <picture>
+                        <source srcset="
+                        assets/images/habla-1-347w.webp 347w, 
+                        assets/images/habla-1-462w.webp 462w, 
+                        assets/images/habla-1-615w.webp 615w, 
+                        assets/images/habla-1-768w.webp 768w,  
+                        assets/images/habla-1-347w-2x.webp 694w, 
+                        assets/images/habla-1-462w-2x.webp 924w, 
+                        assets/images/habla-1-615w-2x.webp 1230w, 
+                        assets/images/habla-1-768w-2x.webp 1536w
+                        " sizes="
+                            (max-width: 1200px) 80vw, 
+                            50vw" type="image/webp">
+
+                        <source srcset="
+                        assets/images/habla-1-347w.jpg 347w, 
+                        assets/images/habla-1-462w.jpg 462w, 
+                        assets/images/habla-1-615w.jpg 615w, 
+                        assets/images/habla-1-768w.jpg 768w, 
+                        assets/images/habla-1-347w-2x.jpg 694w, 
+                        assets/images/habla-1-462w-2x.jpg 924w, 
+                        assets/images/habla-1-615w-2x.jpg 1230w, 
+                        assets/images/habla-1-768w-2x.jpg 1536w
+                        " sizes="
+                        (max-width: 1200px) 80vw, 
+                        50vw" type="image/jpg">
+
+                        <img src="assets/images/habla-1-768w.jpg" alt="Una de las torres de la catedral de Cádiz.">
+                    </picture>
                 </div>
             </section>
             <section class="diccionario">
@@ -384,8 +479,34 @@
                     <li class="aparecer">
                         <a href="torres.html">
                             <div>
-                                <img src="assets/images/torres-1.jpg"
-                                    alt="Parte superior de una torre vista desde abajo.">
+                                <picture>
+                                    <source srcset="
+                                        assets/images/torres-1-399w.webp 399w, 
+                                        assets/images/torres-1-531w.webp 531w, 
+                                        assets/images/torres-1-708w.webp 708w, 
+                                        assets/images/torres-1-399w-2x.webp 798w, 
+                                        assets/images/torres-1-531w-2x.webp 1062w, 
+                                        assets/images/torres-1-708w-2x.webp 1416w
+                                        " sizes="
+                                        (max-width: 768px) 90vw, 
+                                    (max-width: 1200px) 45vw,
+                                    33vw" type="image/webp">
+
+                                    <source srcset="
+                                        assets/images/torres-1-399w.jpg 399w, 
+                                        assets/images/torres-1-531w.jpg 531w, 
+                                        assets/images/torres-1-708w.jpg 708w, 
+                                        assets/images/torres-1-399w-2x.jpg 798w, 
+                                        assets/images/torres-1-531w-2x.jpg 1062w, 
+                                        assets/images/torres-1-708w-2x.jpg 1416w
+                                        " sizes="
+                                        (max-width: 768px) 90vw, 
+                                    (max-width: 1200px) 45vw,
+                                    33vw" type="image/jpg">
+
+                                    <img src="assets/images/torres-1-708w.jpg"
+                                        alt="Parte superior de una torre vista desde abajo.">
+                                </picture>
                                 Las torres
                             </div>
                         </a>
@@ -393,8 +514,34 @@
                     <li class="aparecer">
                         <a href="ritmo.html">
                             <div>
-                                <img src="assets/images/ritmo-3.jpg"
-                                    alt="Busto de Paco Alba, una figura del carnaval de Cádiz, con una gaviota encima.">
+                                <picture>
+                                    <source srcset="
+                                        assets/images/ritmo-3-399w.webp 399w, 
+                                        assets/images/ritmo-3-531w.webp 531w, 
+                                        assets/images/ritmo-3-708w.webp 708w,
+                                        assets/images/ritmo-3-399w-2x.webp 798w, 
+                                        assets/images/ritmo-3-531w-2x.webp 1062w, 
+                                        assets/images/ritmo-3-708w-2x.webp 1416w
+                                        " sizes="
+                                        (max-width: 768px) 90vw, 
+                                    (max-width: 1200px) 45vw,
+                                    33vw" type="image/webp">
+
+                                    <source srcset="
+                                        assets/images/ritmo-3-399w.jpg 399w, 
+                                        assets/images/ritmo-3-531w.jpg 531w, 
+                                        assets/images/ritmo-3-708w.jpg 708w,
+                                        assets/images/ritmo-3-399w-2x.jpg 798w, 
+                                        assets/images/ritmo-3-531w-2x.jpg 1062w, 
+                                        assets/images/ritmo-3-708w-2x.jpg 1416w
+                                        " sizes="
+                                        (max-width: 768px) 90vw, 
+                                    (max-width: 1200px) 45vw,
+                                    33vw" type="image/jpg">
+
+                                    <img src="assets/images/ritmo-3-708w.jpg"
+                                        alt="Busto de Paco Alba, una figura del carnaval de Cádiz, con una gaviota encima.">
+                                </picture>
                                 El ritmo
                             </div>
                         </a>
@@ -404,9 +551,28 @@
         </section>
     </main>
     <footer>
-        <button id="suscribirse" class="aparecer">
-            Suscribirme a la Newsletter
-        </button>
+        <nav>
+            <ul>
+                <li><a href="presentacion.html">La ciudad de plata</a></li>
+                <li><a href="categorias.html">Las joyas de Cádiz</a></li>
+                <li><a href="torres.html">Las torres mirador</a></li>
+                <li><a href="habla.html">El habla de Cádiz</a></li>
+                <li><a href="ritmo.html">El ritmo gaditano</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button id="suscribirse">
+                Suscribirme a la Newsletter
+            </button>
+        </div>
+        <div>
+            <a class="boton-inicio" href="index.html">
+                <img src="assets/icons/logo.svg"
+                    alt="Logo del sitio Cádiz tacita de plata. Es circular y representa la silueta de una torre frente a la luna, que a su vez la cubre el mar"
+                    height="100">
+            </a>
+        </div>
     </footer>
 </body>
 

@@ -21,22 +21,59 @@
 
 </head>
 
-<body>
+<body class="presentacion">
     <header>
-        <div>
-            <h1>
-                La ciudad de plata
-            </h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="categorias.html">Las joyas de Cádiz</a></li>
-                    <li><a href="enlaces.html">Enlaces</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>
+            <a href="index.html">La ciudad de plata</a>
+        </h1>
+        <img src="assets/icons/logo.svg"
+            alt="Logo del sitio Cádiz tacita de plata. Es circular y representa la silueta de una torre frente a la luna, que a su vez la cubre el mar"
+            height="40">
     </header>
     <main>
+        <div class="portada">
+            <picture>
+                <source srcset="
+                    assets/images/portada-presentacion-cadiz-432w.webp 432w, 
+                    assets/images/portada-presentacion-cadiz-576w.webp 576w, 
+                    assets/images/portada-presentacion-cadiz-768w.webp 768w, 
+                    assets/images/portada-presentacion-cadiz-960w.webp 960w, 
+                    assets/images/portada-presentacion-cadiz-1200w.webp 1200w, 
+                    assets/images/portada-presentacion-cadiz-1500w.webp 1500w,
+                    assets/images/portada-presentacion-cadiz-1875w.webp 1975w,
+                    assets/images/portada-presentacion-cadiz-432w-2x.webp 864w, 
+                    assets/images/portada-presentacion-cadiz-576w-2x.webp 1152w, 
+                    assets/images/portada-presentacion-cadiz-768w-2x.webp 1536w, 
+                    assets/images/portada-presentacion-cadiz-960w-2x.webp 1920w,
+                    assets/images/portada-presentacion-cadiz-1200w-2x.webp 2400w,
+                    assets/images/portada-presentacion-cadiz-1500w-2x.webp 3000w,
+                    assets/images/portada-presentacion-cadiz-1875w-2x.webp 3750w
+                    " sizes="
+                    (max-width: 1200px) 100vw, 
+                    75vw" type="image/webp">
+
+                <source srcset="
+                assets/images/portada-presentacion-cadiz-432w.jpg 432w, 
+                assets/images/portada-presentacion-cadiz-576w.jpg 576w, 
+                assets/images/portada-presentacion-cadiz-768w.jpg 768w, 
+                assets/images/portada-presentacion-cadiz-960w.jpg 960w, 
+                assets/images/portada-presentacion-cadiz-1200w.jpg 1200w, 
+                assets/images/portada-presentacion-cadiz-1500w.jpg 1500w,
+                assets/images/portada-presentacion-cadiz-1875w.jpg 1975w,
+                assets/images/portada-presentacion-cadiz-432w-2x.jpg 864w, 
+                assets/images/portada-presentacion-cadiz-576w-2x.jpg 1152w, 
+                assets/images/portada-presentacion-cadiz-768w-2x.jpg 1536w, 
+                assets/images/portada-presentacion-cadiz-960w-2x.jpg 1920w,
+                assets/images/portada-presentacion-cadiz-1200w-2x.jpg 2400w,
+                assets/images/portada-presentacion-cadiz-1500w-2x.jpg 3000w,
+                assets/images/portada-presentacion-cadiz-1875w-2x.jpg 3750w
+                " sizes="
+                (max-width: 1200px) 100vw, 
+                75vw" type="image/jpg">
+
+                <img src="assets/images/portada-presentacion-cadiz-1500w.jpg" alt="Vista de la ciudad de Cádiz.">
+            </picture>
+        </div>
         <p class="aparecer">
             Cádiz, la Tacita de Plata, es considerada la ciudad más antigua de Occidente. Situada sobre una isla que
             se
@@ -59,9 +96,41 @@
             prosperidad,
             hoy siguen en pie, permitiendo observar a quien se asoma, el esplendor de su historia.
         </p>
-        <div>
-            <img class="aparecer" id="imagen1" src="assets/images/presentacion-1.jpg"
-                alt="Vista elevada del centro de Cádiz donde se ve la belleza de sus edificios y torres mirador.">
+        <div class="aparecer">
+            <picture>
+                <source srcset="
+                assets/images/presentacion-1-347w.webp 347w, 
+                assets/images/presentacion-1-462w.webp 462w, 
+                assets/images/presentacion-1-615w.webp 615w, 
+                assets/images/presentacion-1-768w.webp 768w, 
+                assets/images/presentacion-1-960w.webp 960w, 
+                assets/images/presentacion-1-347w-2x.webp 694w, 
+                assets/images/presentacion-1-462w-2x.webp 924w, 
+                assets/images/presentacion-1-615w-2x.webp 1230w, 
+                assets/images/presentacion-1-768w-2x.webp 1536w, 
+                assets/images/presentacion-1-960w-2x.webp 1920w
+                " sizes="
+                    (max-width: 1200px) 80vw, 
+                    50vw" type="image/webp">
+
+                <source srcset="
+                assets/images/presentacion-1-347w.jpg 347w, 
+                assets/images/presentacion-1-462w.jpg 462w, 
+                assets/images/presentacion-1-615w.jpg 615w, 
+                assets/images/presentacion-1-768w.jpg 768w, 
+                assets/images/presentacion-1-960w.jpg 960w, 
+                assets/images/presentacion-1-347w-2x.jpg 694w, 
+                assets/images/presentacion-1-462w-2x.jpg 924w, 
+                assets/images/presentacion-1-615w-2x.jpg 1230w, 
+                assets/images/presentacion-1-768w-2x.jpg 1536w, 
+                assets/images/presentacion-1-960w-2x.jpg 1920w
+                " sizes="
+                (max-width: 1200px) 80vw, 
+                50vw" type="image/jpg">
+
+                <img src="assets/images/presentacion-1-768w.jpg"
+                    alt="Vista elevada del centro de Cádiz donde se ve la belleza de sus edificios y torres mirador.">
+            </picture>
         </div>
         <p class="aparecer">
             Pero Cádiz no es solo su arquitectura; también es su gente y su forma de expresarse. Descubre el habla
@@ -78,18 +147,51 @@
             quien recorre sus barrios; en el bullicio de sus peñas y en los días de carnaval. Cádiz es más que una
             ciudad: es música y alegría, es arte y flamenco, es gracia y chirigota.
         </p>
-        <div>
-            <img class="aparecer" id="imagen2" src="assets/images/presentacion-2.jpg"
-                alt="Fachada del Gran Teatro Falla de Cádiz.">
-        </div>
         <p class="aparecer">
             Bienvenido a Cádiz, Tacita de Plata, viajero que llega sabiendo que nunca más la podrá olvidar.
         </p>
+        <div class="contenedor">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100vw">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: #6b80ac;
+                            stroke-width: 0px;
+                        }
+                    </style>
+                </defs>
+                <rect class="cls-1" x="33.62" y="152.69" width="175.38" height="45.31" />
+                <polygon class="cls-1" points="56.88 152.69 10.69 152.69 33.78 198 56.88 152.69" />
+                <polygon class="cls-1" points="231.88 152.69 185.69 152.69 208.78 198 231.88 152.69" />
+                <polygon class="cls-1" points="122.1 13 124.21 177.4 181.53 155.4 122.1 13" />
+                <polygon class="cls-1" points="113.99 51.39 115.62 178.55 59 153.31 113.99 51.39" />
+            </svg>
+        </div>
+
     </main>
     <footer>
-        <button id="suscribirse" class="aparecer">
-            Suscribirme a la Newsletter
-        </button>
+        <nav>
+            <ul>
+                <li><a href="presentacion.html">La ciudad de plata</a></li>
+                <li><a href="categorias.html">Las joyas de Cádiz</a></li>
+                <li><a href="torres.html">Las torres mirador</a></li>
+                <li><a href="habla.html">El habla de Cádiz</a></li>
+                <li><a href="ritmo.html">El ritmo gaditano</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button id="suscribirse">
+                Suscribirme a la Newsletter
+            </button>
+        </div>
+        <div>
+            <a class="boton-inicio" href="index.html">
+                <img src="assets/icons/logo.svg"
+                    alt="Logo del sitio Cádiz tacita de plata. Es circular y representa la silueta de una torre frente a la luna, que a su vez la cubre el mar"
+                    height="100">
+            </a>
+        </div>
     </footer>
 </body>
 

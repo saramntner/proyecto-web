@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6b80ac;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="33.62" y="152.69" width="175.38" height="45.31"/>
+  <polygon class="cls-1" points="56.88 152.69 10.69 152.69 33.78 198 56.88 152.69"/>
+  <polygon class="cls-1" points="231.88 152.69 185.69 152.69 208.78 198 231.88 152.69"/>
+  <polygon class="cls-1" points="122.1 13 124.21 177.4 181.53 155.4 122.1 13"/>
+  <polygon class="cls-1" points="113.99 51.39 115.62 178.55 59 153.31 113.99 51.39"/>
+</svg>
