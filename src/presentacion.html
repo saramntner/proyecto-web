@@ -9,6 +9,8 @@
         content="Explora Cádiz, donde el mar y su gente se funden en un rincón lleno de arte y alegría. Desde sus torres mirador, pasando por su habla, hasta su ritmo flamenco y carnavalero.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="preload" href="styles.css" as="styles">
+
     <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="app.js"></script>
@@ -128,7 +130,7 @@
                 (max-width: 1200px) 80vw, 
                 50vw" type="image/jpg">
 
-                <img src="assets/images/presentacion-1-768w.jpg"
+                <img src="assets/images/presentacion-1-768w.jpg" loading="lazy"
                     alt="Vista elevada del centro de Cádiz donde se ve la belleza de sus edificios y torres mirador.">
             </picture>
         </div>
@@ -187,7 +189,7 @@
         </div>
         <div>
             <a class="boton-inicio" href="index.html">
-                <img src="assets/icons/logo.svg"
+                <img src="assets/icons/logo.svg" loading="lazy"
                     alt="Logo del sitio Cádiz tacita de plata. Es circular y representa la silueta de una torre frente a la luna, que a su vez la cubre el mar"
                     height="100">
             </a>
