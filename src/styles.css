@@ -345,6 +345,12 @@ img {
     height: auto;
 }
 
+.categoria main .portada img {
+    aspect-ratio: 1.70;
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 768px) {
 
     .categoria main ul {
