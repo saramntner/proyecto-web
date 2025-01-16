@@ -27,6 +27,10 @@ import Swal from 'sweetalert2';
 
 document.addEventListener("DOMContentLoaded", () => {
     const subscribe = document.getElementById("suscribirse");
+    if (!subscribe) {
+        console.error("El elemento con id='suscribirse' no existe.");
+        return;
+    }
     subscribe.addEventListener("click", async () => {
         const { value: email } = await Swal.fire({
             title: "Suscríbete a la Newsletter",
@@ -51,6 +55,5 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             });
         }
-    })()
+    });
 });
-
