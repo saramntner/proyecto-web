@@ -270,6 +270,9 @@ main div {
 
 img {
     width: 50%;
+    aspect-ratio: 1.70;
+    height: auto;
+
 }
 
 /*SVG Simple animado*/
