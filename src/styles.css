@@ -205,7 +205,9 @@ footer .boton-inicio:focus {
 }
 
 .portada img {
+    aspect-ratio: 3 / 2;
     width: 100%;
+    height: auto;
 }
 
 header ul,
