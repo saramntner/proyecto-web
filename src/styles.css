@@ -446,6 +446,14 @@ img {
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 5px;
+    aspect-ratio: 1.67;
+    height: auto;
+}
+
+.tipostorres img {
+    aspect-ratio: 1.70;
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 768px) {
