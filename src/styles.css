@@ -508,6 +508,17 @@ dt {
     padding: 1.5rem;
 }
 
+.hablar img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hablar picture {
+    display: block;
+    aspect-ratio: 0.75;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 768px) {
 
     .detalle .habla li {
