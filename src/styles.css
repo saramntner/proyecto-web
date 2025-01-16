@@ -365,9 +365,16 @@ img {
 
 /*Torres*/
 
+.direccion-arte {
+    display: block;
+    aspect-ratio: 2, 04;
+    overflow: hidden;
+}
+
 .direccion-arte img {
     width: 100%;
     margin-top: 0px;
+    object-fit: cover;
 }
 
 .detalle article ul {
