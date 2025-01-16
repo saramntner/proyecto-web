@@ -271,7 +271,10 @@ main div {
 .presentacion img {
     aspect-ratio: 1.30;
     height: auto;
+}
 
+.presentacion .portada img {
+    aspect-ratio: 1.70;
 }
 
 img {
