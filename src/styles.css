@@ -67,11 +67,12 @@ main {
     margin-bottom: 0;
 }
 
-.responsive-image {
+/*.responsive-image {
     width: 100%;
+    height: auto;
     aspect-ratio: 1.35;
     object-fit: cover;
-}
+}*/
 
 /*Header general*/
 header {
@@ -239,6 +240,9 @@ main li:first-child {
     margin: auto;
     clip-path: circle(50% at 50% 60%);
     transition: clip-path 0.7s ease-out;
+    width: 70%;
+    height: auto;
+    aspect-ratio: 1.35;
 }
 
 .home .clip:hover,
