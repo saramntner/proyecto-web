@@ -90,6 +90,8 @@ header img {
 
 footer {
     text-align: center;
+    background-color: rgba(255, 252, 225);
+    min-height: 100px;
 }
 
 footer nav {
@@ -123,9 +125,12 @@ footer li a {
 footer li:hover,
 footer li:focus {
     transform: scale(1.05);
+    will-change: transform;
 }
 
 footer img {
+    width: 100px;
+    height: auto;
     padding-bottom: 3rem;
 }
 
@@ -143,37 +148,17 @@ button {
 footer button:hover,
 footer button:focus {
     transform: scale(1.1);
+    will-change: transform;
 }
 
-footer {
-    background-color: rgba(255, 252, 225);
+footer .boton-inicio {
+    transition: transform 0.3s ease-in-out;
 }
 
 footer .boton-inicio:hover,
 footer .boton-inicio:focus {
-    animation: girar 0.5s ease-in-out;
-}
-
-@keyframes girar {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(10deg);
-    }
-
-    50% {
-        transform: rotate(0deg);
-    }
-
-    75% {
-        transform: rotate(-10deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
-    }
+    transform: scale(1.1);
+    will-change: transform;
 }
 
 @media screen and (max-width:768px) {
