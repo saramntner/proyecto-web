@@ -277,9 +277,7 @@ main div {
     aspect-ratio: 1.70;
 }
 
-img {
-    width: 50%;
-}
+
 
 /*SVG Simple animado*/
 .contenedor {
@@ -456,14 +454,10 @@ img {
 
 .tipostorres img {
     width: 100%;
-    object-fit: cover;
+    height: auto;
+    aspect-ratio: 0.75;
 }
 
-.tipostorres picture {
-    display: block;
-    aspect-ratio: 0.75;
-    overflow: hidden;
-}
 
 @media screen and (max-width: 768px) {
 
@@ -514,13 +508,13 @@ dt {
 
 .hablar img {
     width: 100%;
-    object-fit: cover;
+    height: auto;
+    aspect-ratio: 0.75;
 }
 
-.hablar picture {
-    display: block;
-    aspect-ratio: 0.75;
-    overflow: hidden;
+img {
+    width: 50%;
+    height: auto;
 }
 
 @media screen and (max-width: 768px) {
